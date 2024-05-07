@@ -1,0 +1,24 @@
+{
+  "name": "123210014-tugas4-cloudrun",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Adityas22/123210014-Tugas4-CloudRun.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Adityas22/123210014-Tugas4-CloudRun/issues"
+  },
+  "homepage": "https://github.com/Adityas22/123210014-Tugas4-CloudRun#readme",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
