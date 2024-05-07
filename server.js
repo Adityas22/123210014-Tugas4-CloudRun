@@ -10,7 +10,7 @@ const biodata = {
 };
 
 // Endpoint untuk mengembalikan biodata
-app.get('/biodata', (req, res) => {
+app.get('/', (req, res) => {
     res.json(biodata);
 });
 
