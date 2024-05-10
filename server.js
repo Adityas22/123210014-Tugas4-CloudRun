@@ -6,12 +6,12 @@ const biodata = {
     nama: "Aditya Septiawan",
     nim: "123210014",
     kelas: "IF-F",
-    jurusan: "Teknik Informatika"
+    jurusan: "Informatika"
 };
 
 // Endpoint untuk mengembalikan biodata
 app.get('/', (req, res) => {
-    res.json(__dirname, biodata);
+    res.json(biodata);
 });
 
 // Port yang digunakan oleh server
