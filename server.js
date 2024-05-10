@@ -11,7 +11,7 @@ const biodata = {
 
 // Endpoint untuk mengembalikan biodata
 app.get('/', (req, res) => {
-    res.json(biodata);
+    res.json(__dirname, biodata);
 });
 
 // Port yang digunakan oleh server
