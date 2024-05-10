@@ -5,7 +5,7 @@ const app = express();
 let biodata = {
   nama: "Aditya Septiawan",
   nim: "123210014",
-  kelas: "IF",
+  kelas: "IF-F",
   jurusan: "Informatika"
 };
 
