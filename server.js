@@ -6,8 +6,8 @@ let biodata = {
   nama: "Aditya Septiawan",
   nim: "123210014",
   kelas: "IF-F",
-  jurusan: "Informatika"
-  Fakultas : "FTI"
+  jurusan: "Informatika",
+  fakultas : "FTI"
 };
 
 // Endpoint untuk mengembalikan biodata
