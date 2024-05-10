@@ -1,8 +1,8 @@
 const express = require('express');
 const app = express();
 
-// Data film
-const films = [
+// Data film awal
+let films = [
     {
         judul: "Inception",
         tahun: 2010,
@@ -15,16 +15,21 @@ const films = [
         genre: "Drama",
         rating: 9.3
     },
-    {
-        judul: "The Godfather",
-        tahun: 1972,
-        genre: "Crime",
-        rating: 9.2
-    }
 ];
 
 // Endpoint untuk mengembalikan data film
 app.get('/', (req, res) => {
+    res.json(films);
+});
+
+// Endpoint untuk memperbarui data film
+app.post('/', (req, res) => {
+    // Mendapatkan data film yang diperbarui dari body permintaan
+    const updatedFilms = req.body;
+
+    // Memperbarui data film dengan data yang diterima
+    films = [...films, ...updatedFilms];
+
     res.json(films);
 });
 
