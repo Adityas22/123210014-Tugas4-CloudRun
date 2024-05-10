@@ -5,8 +5,8 @@ const app = express();
 const biodata = {
     nama: "Aditya Septiawan",
     nim: "123210014",
-    kelas: "IF",
-    jurusan: "Informatika"
+    kelas: "IF-F",
+    jurusan: "Teknik Informatika"
 };
 
 // Endpoint untuk mengembalikan biodata
