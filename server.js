@@ -7,7 +7,7 @@ const films = [
         judul: "Inception",
         tahun: 2010,
         genre: "Science Fiction",
-        rating: 8.8
+        rating: 9.0
     },
     {
         judul: "The Shawshank Redemption",
