@@ -31,4 +31,8 @@ const PORT = process.env.PORT || 8080;
 // Mulai server
 app.listen(PORT, () => {
   console.log(`Server berjalan pada port ${PORT}`);
+<<<<<<< HEAD
 });
+=======
+});
+>>>>>>> ca359132fe2d3d6974320e3b2f802e26843107cc
